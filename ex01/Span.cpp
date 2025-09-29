@@ -6,7 +6,7 @@
 /*   By: cwolf <cwolf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 14:34:35 by cwolf             #+#    #+#             */
-/*   Updated: 2025/09/24 11:06:34 by cwolf            ###   ########.fr       */
+/*   Updated: 2025/09/25 10:22:29 by cwolf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,7 +17,7 @@ Span::Span() : _max(0)
     
 }
 
-Span::Span(unsigned int n) : _max(n) 
+Span::Span(unsigned int max) : _max(max) 
 {
     
 }

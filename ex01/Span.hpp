@@ -6,7 +6,7 @@
 /*   By: cwolf <cwolf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 15:34:17 by cwolf             #+#    #+#             */
-/*   Updated: 2025/09/24 11:06:21 by cwolf            ###   ########.fr       */
+/*   Updated: 2025/09/25 10:14:28 by cwolf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,7 +29,7 @@ class Span
 
     public:
         Span();
-        Span(unsigned int n);
+        Span(unsigned int max);
         Span(const Span& other);
         Span& operator=(const Span& other);
         ~Span();

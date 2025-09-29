@@ -6,7 +6,7 @@
 /*   By: cwolf <cwolf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 14:35:41 by cwolf             #+#    #+#             */
-/*   Updated: 2025/09/24 11:07:18 by cwolf            ###   ########.fr       */
+/*   Updated: 2025/09/25 10:25:22 by cwolf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,14 +23,14 @@ int main(void)
         basic.addNumber(20);
         basic.addNumber(7);
         basic.addNumber(30);
-        std::cout << "Longest Span: " << basic.longestSpan() << std::endl;
-        std::cout << "Shortest Span: " << basic.shortestSpan() << std::endl;
+        std::cout << "Basic: Longest Span: " << basic.longestSpan() << std::endl;
+        std::cout << "Basic: Shortest Span: " << basic.shortestSpan() << std::endl;
 
         Span complex(50);
-        complex.addNumbers(50, 200);
+        complex.addNumbers(50, 1000);
         // complex.printSpan();
-        std::cout << "Longest Span: " << complex.longestSpan() << std::endl;
-        std::cout << "Shortes Span: " << complex.shortestSpan() << std::endl;
+        std::cout << "Complex: Longest Span: " << complex.longestSpan() << std::endl;
+        std::cout << "Complex: Shortes Span: " << complex.shortestSpan() << std::endl;
 
         
     }

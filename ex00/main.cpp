@@ -6,7 +6,7 @@
 /*   By: cwolf <cwolf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 13:42:59 by cwolf             #+#    #+#             */
-/*   Updated: 2025/09/22 15:30:01 by cwolf            ###   ########.fr       */
+/*   Updated: 2025/09/25 13:34:02 by cwolf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,8 @@ int main(void)
         std::cout << "Found: " << *i << std::endl;
         auto x = easyfind(l, 7);
         std::cout << "Found: " << *x << std::endl;
-        i = easyfind(v, 10);
+        auto m = easyfind(l, 42);
+        std::cout << "Found: " << *m << std::endl;
     }
     catch (const std::exception &e)
     {
