@@ -6,7 +6,7 @@
 /*   By: cwolf <cwolf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 16:14:49 by cwolf             #+#    #+#             */
-/*   Updated: 2025/09/29 10:33:14 by cwolf            ###   ########.fr       */
+/*   Updated: 2025/09/30 11:01:33 by cwolf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,15 +20,15 @@ int main (void)
     test.push(43);
     test.push(44);
     
-    for (auto i = test.begin(); i < test.end(); i++)
+    for (auto it = test.begin(); it != test.end(); it++)
     {
-        std::cout << *i << std::endl;
+        std::cout << *it << std::endl;
     }
     
     std::cout << std::endl;
     
-    for (auto i = test.end() - 1; i >= test.begin(); i--)
+    for (auto it = test.end() - 1; it >= test.begin(); it--)
     {
-        std::cout << *i << std::endl;
+        std::cout << *it << std::endl;
     }
 }

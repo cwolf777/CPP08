@@ -6,7 +6,7 @@
 /*   By: cwolf <cwolf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/23 14:34:35 by cwolf             #+#    #+#             */
-/*   Updated: 2025/09/25 10:22:29 by cwolf            ###   ########.fr       */
+/*   Updated: 2025/09/30 10:58:01 by cwolf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,7 +83,7 @@ unsigned int Span::longestSpan()
         throw std::runtime_error("Not enough numbers stored in storage");
 }
 
-void Span::addNumbers(unsigned int n, unsigned int range)
+void Span::addNumbers(unsigned int n, unsigned int range) //pass in 2 iterators
 {
     for (unsigned int i = 0; i < n; i++)
     {

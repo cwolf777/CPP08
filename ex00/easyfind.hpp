@@ -6,7 +6,7 @@
 /*   By: cwolf <cwolf@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/09/22 13:01:07 by cwolf             #+#    #+#             */
-/*   Updated: 2025/09/23 16:05:16 by cwolf            ###   ########.fr       */
+/*   Updated: 2025/09/30 10:53:27 by cwolf            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,7 @@
 
 template <typename T>
 
-auto easyfind(T &container, int val) -> decltype(container.begin())
+auto easyfind(T &container, int val)
 {
     auto i = std::find(container.begin(), container.end(), val);
 
